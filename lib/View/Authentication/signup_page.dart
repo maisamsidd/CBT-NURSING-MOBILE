@@ -4,7 +4,6 @@ import 'package:cbt_nursing_app/Widgets/LoginSignUp/LoginSignupTextFields.dart';
 import 'package:cbt_nursing_app/main.dart';
 import 'package:cbt_nursing_app/utils/App_Colors/App_Colors.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class SignupPage extends StatefulWidget {
   const SignupPage({super.key});

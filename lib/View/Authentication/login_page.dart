@@ -5,7 +5,6 @@ import 'package:cbt_nursing_app/main.dart';
 import 'package:cbt_nursing_app/utils/App_Colors/App_Colors.dart';
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -32,16 +31,18 @@ class _LoginPageState extends State<LoginPage> {
               Text(
                 "Welcome back",
                 style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: MyColors.whiteColor),
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: MyColors.whiteColor,
+                ),
               ),
               Text(
                 "Login to continue",
                 style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: MyColors.whiteColor),
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: MyColors.whiteColor,
+                ),
               ),
               SizedBox(height: mq.height * 0.05),
               Container(
@@ -55,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                       color: Colors.black12,
                       blurRadius: 6,
                       spreadRadius: 2,
-                    )
+                    ),
                   ],
                 ),
                 child: Column(
@@ -74,12 +75,7 @@ class _LoginPageState extends State<LoginPage> {
                       secure: true,
                     ),
                     const SizedBox(height: 24),
-                    LoginsignupButtons(
-                      text: "Login",
-                      ontap: () {
-                        
-                      },
-                    ),
+                    LoginsignupButtons(text: "Login", ontap: () {}),
                     const SizedBox(height: 16),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -88,24 +84,24 @@ class _LoginPageState extends State<LoginPage> {
                         TextButton(
                           onPressed: () {
                             Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const SignupPage()));
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const SignupPage(),
+                              ),
+                            );
                           },
                           child: const Text(
                             "Create a free account",
                             style: TextStyle(color: Colors.blue),
                           ),
-                        )
+                        ),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),
               SizedBox(height: mq.height * 0.03),
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-              ),
+              const Row(mainAxisAlignment: MainAxisAlignment.center),
               SizedBox(height: mq.height * 0.05),
             ],
           ),

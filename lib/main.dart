@@ -1,4 +1,5 @@
-import 'package:cbt_nursing_app/View/Home_Page/Home_Page.dart';
+import 'package:cbt_nursing_app/View/Home_Page/Subsections.dart';
+import 'package:cbt_nursing_app/View/QuizPage/Quiz_Page.dart';
 import 'package:cbt_nursing_app/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(home: Home_Page());
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Subsections(),
+    );
   }
 }
