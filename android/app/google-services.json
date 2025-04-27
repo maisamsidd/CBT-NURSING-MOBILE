@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "267438113110",
+    "project_id": "eatwise-8d59d",
+    "storage_bucket": "eatwise-8d59d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267438113110:android:69d572b0b9d972491dd6f7",
+        "android_client_info": {
+          "package_name": "com.example.cbt_nursing_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267438113110-2k327pvrjh1kjdc4huaslp8cappn066d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAmVQzVfTiuNr_OAb4TCLTNjDQKq_eHEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267438113110-2k327pvrjh1kjdc4huaslp8cappn066d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267438113110-mffhag1l4cj6b21cfb3gb60dure2faft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eatWise"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
